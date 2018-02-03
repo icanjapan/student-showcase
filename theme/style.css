@@ -236,11 +236,22 @@ ADD CUSTOM STYLES IN YOUR DIV AREAS!
     margin:5px;
     padding:50px;
     text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
  }
-.chrisWilliamsDivImg {
-    width: 300px;
+.chrisWilliamsDiv img {
+    width: 80%;
+    min-height:50%;
 }
+
+.chrisWilliamsDiv img, .chrisWilliamsDiv h1, .chrisWilliamsDiv a {
+    margin: 7px;
+    padding: 7px;
+}
+
  .larryDiv {
 color: green;
 font-style: italic;
@@ -355,7 +366,7 @@ font-weight: bold;
   color: purple;
   background-color: lightcoral;
   border: 5px purple solid;
-  
+
 
 }
 .cherylDiv {
